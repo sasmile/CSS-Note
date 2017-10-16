@@ -1,0 +1,2 @@
+当前标签继承的文字颜色；
+凡是需要使用颜色值的地方都可以使用currentcolor，background-color,gradient,box-shadow,fill等；
