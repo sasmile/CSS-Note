@@ -1,0 +1,4 @@
+主要用于并排放置带边框的框；
+content-box:默认值，标准模式下的盒模型，
+padding和border不被包含在定义的width和height之内。对象的实际宽度等于设置的width值和border、padding之和，即 ( Element width = width + border + padding )
+border-box:padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度，即 ( Element width = width )
