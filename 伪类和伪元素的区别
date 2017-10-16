@@ -1,0 +1,22 @@
+伪类用一个冒号 ：first-child
+伪元素用两个冒号 ：：first-line(css2中已存在的伪元素可以用一个冒号表示)
+
+	.	伪类本质上是为了弥补常规CSS选择器的不足，以便获取到更多信息；
+	.	伪元素本质上是创建了一个有内容的虚拟容器；
+	.	CSS3中伪类和伪元素的语法不同；
+	.	可以同时使用多个伪类，而只能同时使用一个伪元素；
+常用伪类：
+:first-child
+:hover
+:active
+:link
+:focus
+:visited
+:nth-child(n)(匹配属于其父元素的第n个子元素，不论元素类型)
+常用伪元素：
+:first-letter
+:first-line
+:before
+:after
+
+
