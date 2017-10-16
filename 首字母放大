@@ -1,0 +1,4 @@
+首字母放大：类+：first-letter 伪类选择器
+首字母放大+下划线：text-decoration: underline;
+                font-variant: small-caps;
+                text-transform: capitalize;
