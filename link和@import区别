@@ -1,0 +1,8 @@
+link和@import都是引入外部文件
+
+区别：
+1.link是XHTML标签，除加载css文件外可以引入图标，定义RSS等，@import是CSS元素，只能引入CSS文件；
+2.link引入的css可以和页面同时加载，@import引入的CSS需要等页面加载完毕后才能加载；
+3.link无兼容问题，@import低版本浏览器不支持；
+4.link支持JS使用JS通过DOM改变样式，@import不支持；
+5.link引入的样式权重高于@import；
